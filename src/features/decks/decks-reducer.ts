@@ -36,7 +36,7 @@ export const decksReducer = (state: DecksState = initialState, action: DecksActi
   }
 }
 
-type DecksActions =
+export type DecksActions =
   | ReturnType<typeof setDecksAC>
   | ReturnType<typeof addDeckAC>
   | ReturnType<typeof deleteDeckAC>
